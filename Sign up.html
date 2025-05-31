@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get Started - Star Gigs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-gray-100">
+
+  <div class="flex flex-col md:flex-row bg-white shadow-lg max-w-5xl w-full rounded-2xl overflow-hidden">
+    
+    <!-- Left: Image + Text -->
+    <div class="md:w-1/2 w-full h-72 md:h-auto bg-cover bg-center relative" style="background-image: url('concert1.jpg')">
+      <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-end p-6 text-white">
+        <div class="text-xl font-bold">STAR GIGS</div>
+        <h2 class="text-2xl mt-2 font-semibold">Discover &<br/>Get Discovered!</h2>
+        <p class="text-xs mt-4">© STAR GIGS 2024. ALL RIGHTS RESERVED</p>
+      </div>
+    </div>
+
+    <!-- Right: Role Selection -->
+    <div class="md:w-1/2 w-full p-8">
+      <h2 class="text-xl font-semibold mb-4">Get Started:</h2>
+      <p class="text-sm mb-6 text-gray-600">Choose the role that best fits you to continue.</p>
+
+      <form class="space-y-4">
+        <div>
+          <input type="radio" id="artist" name="role" class="mr-2" />
+          <label for="artist">🎤 I'm an Artist/Performer</label>
+        </div>
+        <div>
+          <input type="radio" id="promoter" name="role" class="mr-2" />
+          <label for="promoter">🎫 I'm an Event Promoter/Manager</label>
+        </div>
+
+        <button type="submit" class="w-full bg-black text-white py-2 rounded-lg hover:bg-gray-900 transition">Continue</button>
+      </form>
+
+      <p class="text-center text-sm text-gray-500 mt-6">
+        Already have an account? <a href="login.html" class="text-purple-600 font-medium hover:underline">Log in</a>
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
