@@ -1,1 +1,66 @@
 # Star-gigs
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Star Gigs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen flex items-center justify-center bg-gray-100">
+    <div class="flex flex-col md:flex-row bg-white shadow-xl max-w-5xl w-full rounded-2xl overflow-hidden">
+      
+      <!-- Left: Image Section -->
+      <div class="md:w-1/2 w-full h-72 md:h-auto bg-cover bg-center relative"style="background-image: url(https://thememxpro.com/php-template/envens/assets/images/resources/main-slider-img-1-1.jpg)">
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-end p-6">
+          <div class="text-white text-xl font-bold">STAR GIGS</div>
+          <p class="text-white text-sm mt-1">A place to grow and showcase your talents.</p>
+        </div>
+      </div>
+
+      <!-- Right: Form Section -->
+      <div class="md:w-1/2 w-full p-8">
+        <h2 class="text-2xl font-semibold mb-2">Welcome Back 👋</h2>
+        <p class="text-sm text-gray-500 mb-6">Connect, collaborate, and find opportunities.</p>
+
+        <form class="space-y-4">
+          <div>
+            <label class="text-sm block mb-1">Email</label>
+            <input type="email" placeholder="john.doe@example.com" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:border-purple-500" />
+          </div>
+          <div>
+            <label class="text-sm block mb-1">Password</label>
+            <input type="password" placeholder="••••••••" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:border-purple-500" />
+            <div class="text-right mt-1">
+              <a href="#" class="text-sm text-purple-600 hover:underline">Forgot Password?</a>
+            </div>
+          </div>
+          <button type="submit" class="w-full bg-black text-white py-2 rounded-lg hover:bg-gray-900 transition">Log In</button>
+        </form>
+
+        <!-- Divider -->
+        <div class="flex items-center my-6">
+          <hr class="flex-grow border-gray-300" />
+          <span class="px-2 text-sm text-gray-500">or log in with</span>
+          <hr class="flex-grow border-gray-300" />
+        </div>
+
+        <!-- Social Login -->
+        <div class="flex justify-center space-x-4">
+          <button class="p-2 rounded-full border hover:bg-gray-100">
+            <img src="https://www.svgrepo.com/show/475647/google-color.svg" alt="Google" class="w-6 h-6" />
+          </button>
+          <button class="p-2 rounded-full border hover:bg-gray-100">
+            <img src="https://www.svgrepo.com/show/475661/facebook-color.svg" alt="Facebook" class="w-6 h-6" />
+          </button>
+        </div>
+
+        <!-- Bottom Link -->
+        <p class="text-center text-sm text-gray-500 mt-6">
+          Don’t have an account?
+          <a href="#" class="text-purple-600 font-medium hover:underline">Sign up</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
