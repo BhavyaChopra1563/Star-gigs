@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get Started - Star Gigs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-gray-100">
+
+  <div class="flex flex-col md:flex-row bg-white shadow-2xl w-full max-w-screen-xl min-h-[700px] rounded-2xl overflow-hidden px-10 py-16">
+    
+    <!-- Left: Image + Text -->
+    <div class="md:w-1/2 w-full h-80 md:h-auto bg-cover bg-center relative" style="background-image: url('https://www.stagepittsburgh.com/wp-content/uploads/2025/04/RRRMAIN.jpg-1.webp')">
+      <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-end p-8 text-white">
+        <div class="text-3xl font-bold">STAR GIGS</div>
+        <h2 class="text-2xl mt-2 font-semibold leading-snug">Discover &<br/>Get Discovered!</h2>
+        <p class="text-sm mt-6">© STAR GIGS 2024. ALL RIGHTS RESERVED</p>
+      </div>
+    </div>
+
+    <!-- Right: Role Selection -->
+    <div class="md:w-1/2 w-full px-8 py-10">
+      <h2 class="text-3xl font-bold mb-6">Get Started</h2>
+      <p class="text-base mb-8 text-gray-600">Choose the role that best fits you to continue.</p>
+
+      <form class="space-y-6 text-lg">
+        <div>
+          <input type="radio" id="artist" name="role" class="mr-3 scale-125 align-middle" />
+          <label for="artist" class="font-medium">🎤 I'm an Artist/Performer</label>
+        </div>
+        <div>
+          <input type="radio" id="promoter" name="role" class="mr-3 scale-125 align-middle" />
+          <label for="promoter" class="font-medium">🎫 I'm an Event Promoter/Manager</label>
+        </div>
+
+        <button type="submit" class="w-full bg-black text-white py-3 mt-6 rounded-lg text-lg font-semibold hover:bg-gray-900 transition">Continue</button>
+      </form>
+
+      <p class="text-center text-base text-gray-600 mt-8">
+        Already have an account? 
+        <a href="login.html" class="text-purple-600 font-semibold hover:underline">Log in</a>
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
