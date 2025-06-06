@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard - Star Gigs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+<div class="flex min-h-screen">
+  <!-- Sidebar -->
+  <aside class="w-64 bg-white shadow-lg flex flex-col">
+    <div class="p-6 text-2xl font-bold text-orange-600 border-b">★ STAR GIGS</div>
+    <nav class="flex-1 p-4 space-y-2">
+      <a href="#" class="block px-4 py-2 rounded bg-orange-100 text-orange-700 font-semibold">Dashboard</a>
+      <a href="performance.html" class="block px-4 py-2 rounded hover:bg-gray-100">Performances</a>
+      <a href="Gigs.html" class="block px-4 py-2 rounded hover:bg-gray-100">Gigs</a>
+      <a href="Messages.html" class="block px-4 py-2 rounded hover:bg-gray-100">Messages</a>
+      <a href="calender.html" class="block px-4 py-2 rounded hover:bg-gray-100">Calendar</a>
+      <a href="payout.html" class="block px-4 py-2 rounded hover:bg-gray-100">Payouts</a>
+      <a href="Profile.html" class="block px-4 py-2 rounded hover:bg-gray-100">Profile</a>
+      <a href="Settings.html" class="block px-4 py-2 rounded hover:bg-gray-100">Settings</a>
+    </nav>
+    <div class="p-4 border-t text-sm text-gray-400">© 2025 Star Gigs</div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-8 space-y-6">
+    <!-- Welcome -->
+    <div>
+      <h1 class="text-3xl font-bold">Welcome back, Andrew!</h1>
+      <p class="text-gray-500">Here’s a summary of your upcoming gigs and activity.</p>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div class="bg-white rounded shadow p-5 text-center">
+        <p class="text-sm text-gray-500">Gig Requests</p>
+        <p class="text-2xl font-bold">12</p>
+      </div>
+      <div class="bg-white rounded shadow p-5 text-center">
+        <p class="text-sm text-gray-500">Profile Views</p>
+        <p class="text-2xl font-bold">143</p>
+      </div>
+      <div class="bg-white rounded shadow p-5 text-center">
+        <p class="text-sm text-gray-500">Earnings</p>
+        <p class="text-2xl font-bold">$2,456</p>
+      </div>
+      <div class="bg-white rounded shadow p-5 text-center">
+        <p class="text-sm text-gray-500">Rating</p>
+        <p class="text-2xl font-bold">4.5</p>
+      </div>
+    </div>
+
+    <!-- Upcoming Gigs Table -->
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold mb-4">Upcoming Gigs</h2>
+      <table class="w-full text-sm text-left">
+        <thead class="text-gray-500 border-b">
+          <tr>
+            <th class="py-2">Event</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Type</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b">
+            <td class="py-2">Sunset Music Festival</td>
+            <td>Apr 15, 2025</td>
+            <td>Miami, FL</td>
+            <td>SOLO</td>
+            <td><span class="text-green-600">Confirmed</span></td>
+          </tr>
+          <tr class="border-b">
+            <td class="py-2">Wedding Reception</td>
+            <td>Apr 17, 2025</td>
+            <td>Chicago</td>
+            <td>BAND</td>
+            <td><span class="text-yellow-500">Pending</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+
+</body>
+</html>
